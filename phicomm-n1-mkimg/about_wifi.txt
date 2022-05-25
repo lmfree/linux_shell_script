@@ -1,0 +1,7 @@
+添加开启wifi的文件
+将制作好的启动文件放到OpenWRT对应的文件夹
+（注，启动文件千万不要转存到windows系统，否则文件的格式和权限会被windows修改，而导致无线开启失败，别问我为什么知道，问就爆炸，心累）
+
+git clone https://github.com/maxlicheng/phicomm-n1-wireless.git
+sudo mv phicomm-n1-wireless/wireless_enable openwrt/etc/modules.d/wireless_enable
+sudo rm -rf phicomm-n1-wireless
