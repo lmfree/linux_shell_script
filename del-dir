@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ $# != 1 ];then
+	#echo $#!=1
+	echo -e "$0 dest_dir_name\n"
+else
+	echo -e "[this cmd will delete all file and dir in $1]\n"
+	sudo mkdir -p /tmp/blank-tmp
+	rm /tmp/blank-tmp/* -rf
+	if [ -d $1 ];then
+		echo 'delete start...'
+		#sudo rsync -a -delete /tmp/blank-tmp/ $1/
+		sudo rsync --delete-before -d -a -H -v --progress --stats /tmp/blank-tmp/ $1/
+		sudo rm -rf $1
+		echo 'delete done.'
+	else
+		echo -e "$1 is not dir. del this file"
+		sudo rm $1
+	fi
+	sudo rm /tmp/blank-tmp -rf
+fi
+
