@@ -1,0 +1,18 @@
+lsattr 可用于查询可执行文件的属性. 
+lsattr /usr/bin/ssh
+----ia--------e--- /usr/bin/ssh
+
+如果出现 i, a,这样的标记需要使用命令
+chattr -i or -a 删除. 
+删除后apt install操作可以正常进行.
+
+这个是解决类型如下的错误
+Unpacking replacement openssh-server ... 
+ dpkg: error processing /var/cache/apt/archives/openssh-server_1%3a5.5p1-6_amd64.deb (--unpack): 
+ unable to make backup link of `./usr/sbin/sshd' before installing new version: Operation not permitted 
+ configured to not write apport reports 
+ Preparing to replace openssh-client 1:5.1p1-5 (using .../openssh-client_1%3a5.5p1-6_amd64.deb) ... 
+ Unpacking replacement openssh-client ... 
+ dpkg: error processing /var/cache/apt/archives/openssh-client_1%3a5.5p1-6_amd64.deb (--unpack): 
+ unable to make backup link of `./usr/bin/ssh' before installing new version: Operation not permitted
+ 
