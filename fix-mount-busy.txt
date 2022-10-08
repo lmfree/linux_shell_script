@@ -1,0 +1,9 @@
+假设 /mnt umount时报错 busy 解决办法如下:
+
+查看 /mnt 被那些进程使用
+fuser -mv /mnt
+
+kill掉使用 /mnt 的进程.
+fuser -kv /mnt
+
+

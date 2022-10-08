@@ -1,0 +1,8 @@
+196服务器 run64病毒
+/var/spool/cron/crontabs/root 删除此文件, 解决定时启动挖矿程序.
+
+病毒所在目录
+/home/liming/.sshd
+
+191服务器 -bash病毒
+/bin/-bash
