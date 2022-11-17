@@ -1,0 +1,9 @@
+https://raw.githubusercontent.com/xun404/adblock/main/ad-pc.txt
+https://raw.githubusercontent.com/xun404/adblock/main/ad-mo.txt
+https://raw.githubusercontent.com/xun404/adblock/main/ad.txt
+https://raw.githubusercontent.com/xun404/adblock/main/ad2.txt
+https://raw.githubusercontent.com/xun404/adblock/main/ad3.txt
+https://raw.githubusercontent.com/xun404/adblock/main/ad-edentw.txt
+https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
+https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
