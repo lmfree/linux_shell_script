@@ -1,0 +1,53 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="CCTV1.cn" status="online",CCTV-1综合 (1080p)
+http://183.207.249.9/PLTV/3/224/3221225530/index.m3u8
+
+#EXTINF:-1 tvg-id="CCTV2.cn" status="online",CCTV-2财经 (1080p)
+http://117.169.120.140:8080/live/cctv-2/.m3u8
+
+#EXTINF:-1 tvg-id="CCTV3.cn" status="online",CCTV-3综艺 (1080p)
+http://183.207.249.14/PLTV/3/224/3221225588/index.m3u8
+
+#EXTINF:-1 tvg-id="" status="online",CCTV-4中文国际 (1080p)
+http://183.207.249.6/PLTV/3/224/3221225534/index.m3u8
+
+#EXTINF:-1 tvg-id="CCTV5.cn" status="online",CCTV-5体育 (1080p)
+http://183.207.249.35/PLTV/4/224/3221227381/index.m3u8
+
+#EXTINF:-1 tvg-id="CCTV5Plus.cn" status="online",CCTV-5+体育赛事 (1080p)
+http://117.169.120.132:8080/live/hdcctv05plus/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CCTV6.cn" status="online",CCTV-6电影 (1080p)
+http://183.207.248.37/PLTV/3/224/3221227209/index.m3u8
+
+#EXTINF:-1 tvg-id="CCTV7.cn" status="online",CCTV-7国防军事 (1080p)
+http://183.207.249.36/PLTV/4/224/3221227314/index.m3u8
+
+#EXTINF:-1 tvg-id="CCTV8.cn" status="online",CCTV-8电视剧 (1080p)
+http://183.207.248.12/PLTV/3/224/3221227204/index.m3u8
+
+#EXTINF:-1 tvg-id="CCTV9.cn" status="online",CCTV-9纪录 (1080p)
+http://183.207.249.6/PLTV/3/224/3221225532/index.m3u8
+
+#EXTINF:-1 tvg-id="CCTV10.cn" status="online",CCTV-10科教 (1080p)
+http://39.135.138.59:18890/PLTV/88888910/224/3221225627/index.m3u8
+
+#EXTINF:-1 tvg-id="" status="online",辽宁卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225735/index.m3u8
+
+#EXTINF:-1 tvg-id="" status="online",湖南卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225704/index.m3u8
+
+#EXTINF:-1 tvg-id="" status="online",浙江卫视 (1080p)
+http://183.207.249.34/PLTV/4/224/3221227393/index.m3u8
+
+#EXTINF:-1 tvg-id="" status="online",江苏卫视 (1080p)
+http://183.207.249.34/PLTV/4/224/3221227402/index.m3u8
+
+#EXTINF:-1 tvg-id="" status="online",北京卫视 (1080p)
+http://183.207.249.8/PLTV/3/224/3221225574/index.m3u8
+
+#EXTINF:-1 tvg-id="" status="online",东方卫视 (1080p)
+http://183.207.249.7/PLTV/4/224/3221227396/index.m3u8
+

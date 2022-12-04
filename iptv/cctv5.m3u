@@ -1,0 +1,6 @@
+#EXTM3U
+#EXTINF:-1 ,CCTV-5HD
+rtmp://ivi.bupt.edu.cn:1935/livetv/cctv5hd
+#EXTINF:-1 ,CCTV5+HD
+rtmp://ivi.bupt.edu.cn:1935/livetv/cctv5phd
+#
